@@ -1,0 +1,238 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono|Molengo&subset=latin);
+
+/* Reset. Let's start with a blank slate. Credit to Eric Meyer 
+
+http://carsonified.com/events/
+http://www.flickr.com/photos/hizibiz/
+http://www.flickr.com/photos/85296574@N00/
+http://www.flickr.com/photos/indiantraveller/
+http://www.flickr.com/photos/martinb/
+-----------------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* =HTML
+-----------------------------------------------------------------------------*/
+HTML  {
+    height: 100%;
+}
+
+/* =Layout
+-----------------------------------------------------------------------------*/
+
+.triangle {
+	border-color: #1c7dc1 #1c7dc1 #f5f5f5 #1c7dc1;
+	border-style: solid;
+	border-width: 0em 20em 15em 20em;
+	height: 0px;
+	width: 0px;
+}
+
+
+
+.eyes {
+		background:transparent url(eyes.png)no-repeat top left;
+		position:absolute;
+		width:149px;
+		height:118px;
+		top:100px;
+		left:44%;
+		
+}
+
+
+#wrapper {
+	margin: 0 auto;
+    width: 40em;
+	margin-top:0;
+	z-index:100;
+	
+	
+}
+.content {
+	padding:0em 3em;
+
+}
+/* =Typography
+-----------------------------------------------------------------------------*/
+BODY {
+    font-family:  verdana, helvetica, sans-serif;
+    /*font-size: 0.875em;  14px */
+	line-height:1.1em;
+}
+H1, H2 { 
+	font-family: 'Droid Sans Mono', arial, serif;
+	padding-bottom:.3em;
+	margin-bottom:.2em;
+
+	
+
+ }
+H1 {
+	font-size:280%;
+	text-shadow: 0px 1px 0px #e5e5ee;
+
+}
+
+H2 {
+	font-size:120%;
+	padding-top:.5em;
+	
+}
+P, LI {
+	font-size:95%;
+	font-family: 'Molengo';
+}
+LI P {
+	font-size:100%;
+}
+.footer {
+	font-size:90%;
+	border-top:1px solid #ccc;
+	padding-top:.5em;
+	clear:left;
+}
+.footer  P {
+	text-align:center;
+}
+/* =Colours
+-----------------------------------------------------------------------------*/
+
+BODY {
+    background: #fff;
+	color:#1a1a1a; 
+	border-top:solid 8px #D42E12;
+	
+}
+#wrapper {
+
+	
+}
+H1, H2 {
+		color:#D42E12;
+}
+A {
+    color: #109fd8; /* light blue */
+}
+a:hover {
+	background-color: rgb(255,255,0)
+	
+}
+.searchword { 
+
+color:rgb(255,255,0)
+
+
+
+}
+
+
+/* =Global
+-----------------------------------------------------------------------------*/
+
+.clearfix {
+	
+	clear:left;
+}
+ 
+
+P {
+	padding-bottom:1em;
+}
+LI  {
+	padding-bottom:.75em
+}
+P.fn {
+	padding-bottom:0;
+}
+.contact LI 
+{
+	display:block; 
+	float:left;
+	width:180px;
+	
+}
+UL.contact  {
+
+	margin-bottom:2em;
+	float:left;
+}
+
+.footer 
+{
+clear:left;
+
+}
+H1 {
+	margin-bottom:.3em;
+	padding-top:.5em;
+	padding-bottom:.6em;
+	float:left;
+	display:block;
+}
+#social {
+	overflow: auto;
+	float:right;
+	margin-top:0px;
+	
+}
+#social  A SPAN {
+	display:hidden;
+}
+#social  LI {
+	float:left;
+}
+#social  LI  a {
+    display: block;
+    height: 40px;
+    opacity: 0.6;
+    width: 40px;
+	text-decoration:none;
+
+	
+}
+#social  LI  a:hover  {
+	opacity: 1;
+	background-color:#fff;
+}
+#social  LI  a  SPAN {
+	display:none;
+}
+
+#social  LI.t a  {
+background: url("social.png") no-repeat scroll 0 0px transparent;
+}
+
+
+#social  LI.f a  {
+background: url("social.png") no-repeat scroll -35px 0px transparent;
+}
